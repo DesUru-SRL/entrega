@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "select * from sysusers" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read

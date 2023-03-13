@@ -1,0 +1,21 @@
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\bin\Debug\dU Salud.exe.config
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\bin\Debug\dU Salud.exe
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\bin\Debug\dU Salud.pdb
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\bin\Debug\dU Salud.xml
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU Salud.vbprojAssemblyReference.cache
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.Resources.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU Salud.vbproj.GenerateResource.cache
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU Salud.exe
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU Salud.xml
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU Salud.pdb
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.Window.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormAnalisis.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormControl.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormDiagnosticos.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormEntrevista.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormEntrevistas.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormEstados.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormFormularios.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormMotivo.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormSintomas.resources
+C:\Users\Ezequiel Melogno\source\repos\dU Salud\obj\Debug\dU_Salud.FormTratamientos.resources

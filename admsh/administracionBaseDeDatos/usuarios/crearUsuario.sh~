@@ -1,0 +1,9 @@
+#!/bin/bash
+read -p "ingrese el nombre de usuario a agregar " nombre
+	sudo useradd -m $nombre 
+	sudo passwd $nombre
+	echo "Usuario $nombre creado satisfactoriamente."
+echo "GRANT CONNECT TO $nombre" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read

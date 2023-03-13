@@ -1,0 +1,3 @@
+*** create database
+330 - Cannot create or rename the database.
+100 - ISAM error:  duplicate value for a record with unique key.

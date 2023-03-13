@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "ingrese el nombre de usuario que desea darle permiso de conexion " nom
+echo "grant connect to "$nom"" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read

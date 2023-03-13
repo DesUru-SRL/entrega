@@ -1,0 +1,37 @@
+#!/bin/bash
+echo "
+Seleccione el servicio:
+1. ssh
+2. syslog
+3. network-manager
+4. rsync
+5. cron
+"
+read $ops
+	case $ops in
+		1)
+		 	sudo systemctl start ssh
+		;;
+		2)
+			sudo systemctl start syslog
+		;;
+		3)
+			sudo systemctl start network-manager
+		;;
+		4)
+			sudo systemctl start rsync
+		;;
+		5)
+			sudo systemctl start cron
+        ;;
+        *)
+            echo "Opcion equivocada"
+        ;;
+	esacif [ "$?" != "0" ];then
+	echo "Se ha producido un error."
+	read -p "Aplaste ENTER para volver."
+	echo "[X] `date +'%F %T'`: Iniciar servicio" >> "`cat configuracion/ubicacionLog.conf`/audit.log"	
+else
+	echo "[O] `date +'%F %T'`: Iniciar servicio" >> "`cat configuracion/ubicacionLog.conf`/audit.log"
+fi
+

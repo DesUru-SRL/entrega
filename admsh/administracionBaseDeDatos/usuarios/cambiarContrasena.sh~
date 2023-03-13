@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "ingrese el nombre del usuario que desea modificar " nom
+read -p "ingrese la nueva contraseña del usuario " contra
+echo "ALTER USER $nom MODIFY PASSWORD $contra" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read

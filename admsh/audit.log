@@ -1,0 +1,25 @@
+[INICIO] 2020-11-11 00:15:29: Inicio del Shellscript
+[O] 2020-11-11 00:15:41: Crear usuario
+[X] 2020-11-11 00:15:46: Eliminar grupo
+[O] 2020-11-11 00:15:49: Eliminar usuario
+[INICIO] 2020-11-11 00:15:56: Inicio de Consola
+[O] 2020-11-11 00:16:04: Comando de consola (ls)
+[X] 2020-11-11 00:16:15: Comando de consola (penis)
+[X] 2020-11-11 00:16:33: Comando de consola (ls -penis)
+[O] 2020-11-11 00:16:37: Comando de consola (ls -a)
+[O] 2020-11-11 00:16:40: Comando de consola (ls -l)
+[FIN] 2020-11-11 00:16:47: Fin de Consola
+[FIN] 2020-11-11 00:18:00: Fin del Shellscript
+
+[INICIO] 2020-11-11 03:33:30: Inicio del Shellscript
+[O] 2020-11-11 03:33:57: Crear usuario
+[O] 2020-11-11 03:34:18: Eliminar usuario
+[O] 2020-11-11 03:34:25: Crear usuario
+[O] 2020-11-11 03:34:30: Eliminar usuario
+[INICIO] 2020-11-11 03:34:38: Inicio de Consola
+[O] 2020-11-11 03:34:47: Comando de consola (userdel --help)
+[FIN] 2020-11-11 03:35:04: Fin de Consola
+[X] 2020-11-11 03:36:40: Configurar ip
+[O] 2020-11-11 03:37:15: Mostrar configuracion ip
+[O] 2020-11-11 03:37:39: Comprobar conexion a internet
+[X] 2020-11-11 03:38:03: Comprobar conexion a servidor BD

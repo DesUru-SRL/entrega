@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9A08B9A-CD5D-49C1-965B-453501C49CE9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>dU_Salud.My.MyApplication</StartupObject>
+    <RootNamespace>dU_Salud</RootNamespace>
+    <AssemblyName>dU Salud</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>dU Salud.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>dU Salud.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Complementos\Usuarios.vb" />
+    <Compile Include="Dominio\Analisis.vb" />
+    <Compile Include="Dominio\ControlPlan.vb" />
+    <Compile Include="Dominio\Diagnostico.vb" />
+    <Compile Include="Dominio\Entrevista.vb" />
+    <Compile Include="Dominio\EVA.vb" />
+    <Compile Include="Dominio\Fiebre.vb" />
+    <Compile Include="Dominio\Fisico.vb" />
+    <Compile Include="Dominio\Formulario.vb" />
+    <Compile Include="Dominio\Glasgow.vb" />
+    <Compile Include="Dominio\Paciente.vb" />
+    <Compile Include="Dominio\Plan.vb" />
+    <Compile Include="Dominio\Sistema.vb" />
+    <Compile Include="Dominio\SolicitudAnalisis.vb" />
+    <Compile Include="Dominio\Usuario.vb" />
+    <Compile Include="Persistencia\Conexion.vb" />
+    <Compile Include="Presentación\FormAnalisis.Designer.vb">
+      <DependentUpon>FormAnalisis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormAnalisis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormControl.Designer.vb">
+      <DependentUpon>FormControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormDiagnosticos.Designer.vb">
+      <DependentUpon>FormDiagnosticos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormDiagnosticos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormEntrevista.Designer.vb">
+      <DependentUpon>FormEntrevista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormEntrevista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormEntrevistas.Designer.vb">
+      <DependentUpon>FormEntrevistas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormEntrevistas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormEstados.Designer.vb">
+      <DependentUpon>FormEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormFormularios.Designer.vb">
+      <DependentUpon>FormFormularios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormFormularios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormMotivo.Designer.vb">
+      <DependentUpon>FormMotivo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormMotivo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormSintomas.Designer.vb">
+      <DependentUpon>FormSintomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormSintomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\FormTratamientos.Designer.vb">
+      <DependentUpon>FormTratamientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentación\FormTratamientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentación\FormAnalisis.resx">
+      <DependentUpon>FormAnalisis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormControl.resx">
+      <DependentUpon>FormControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormDiagnosticos.resx">
+      <DependentUpon>FormDiagnosticos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormEntrevista.resx">
+      <DependentUpon>FormEntrevista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormEntrevistas.resx">
+      <DependentUpon>FormEntrevistas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormEstados.resx">
+      <DependentUpon>FormEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormFormularios.resx">
+      <DependentUpon>FormFormularios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormMotivo.resx">
+      <DependentUpon>FormMotivo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormSintomas.resx">
+      <DependentUpon>FormSintomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\FormTratamientos.resx">
+      <DependentUpon>FormTratamientos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dUlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soyAuxiliar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soyEmpleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soyMedico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soyPaciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soyAdmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteRectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\whiteRectangle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacienteAnalisis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacienteDiagnostico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacienteTratamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevistarPaciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrarPaciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrarAuxiliares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrarMedicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\darDeBaja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagnosticar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevistar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solicitarAnalisis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadoA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadoB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadoC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadoD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadoE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analisisClinicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlTratamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagnosticos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevistas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tratamientos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fiebre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fisico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glaslow.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

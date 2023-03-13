@@ -1,0 +1,239 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+dU Salud
+</name>
+</assembly>
+<members>
+<member name="T:dU_Salud.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.administrarAuxiliares">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.administrarMedicos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.administrarPaciente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.analisisClinicos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.back">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.controlTratamiento">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.darDeBaja">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.diagnosticar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.diagnosticos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.dolor">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.dUlogo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.entrevistar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.entrevistarPaciente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.entrevistas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estadoA">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estadoB">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estadoC">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estadoD">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estadoE">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.estados">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.fiebre">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.fisico">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.glaslow">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.modificar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.pacienteAnalisis">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.pacienteDiagnostico">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.pacienteTratamiento">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.solicitarAnalisis">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.soyAdmin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.soyAuxiliar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.soyEmpleado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.soyMedico">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.soyPaciente">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.tratamientos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.whiteRectangle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:dU_Salud.My.Resources.Resources.whiteRectangle2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:dU_Salud.Window.btn1_Click(System.Object,System.EventArgs)">
+1
+</member>
+<member name="M:dU_Salud.Window.btn2_Click(System.Object,System.EventArgs)">
+2
+</member>
+<member name="M:dU_Salud.Window.btn3_Click(System.Object,System.EventArgs)">
+3
+</member>
+<member name="M:dU_Salud.Window.btn4_Click(System.Object,System.EventArgs)">
+4
+</member>
+<member name="M:dU_Salud.Window.btn5_Click(System.Object,System.EventArgs)">
+5
+</member>
+<member name="M:dU_Salud.Window.btn6_Click(System.Object,System.EventArgs)">
+6
+</member>
+<member name="M:dU_Salud.Window.btn7_Click(System.Object,System.EventArgs)">
+7
+</member>
+<member name="M:dU_Salud.Window.btn8_Click(System.Object,System.EventArgs)">
+8
+</member>
+<member name="M:dU_Salud.Window.btn9_Click(System.Object,System.EventArgs)">
+9
+</member>
+<member name="M:dU_Salud.Window.btn0_Click(System.Object,System.EventArgs)">
+0
+</member>
+<member name="M:dU_Salud.Window.btnDel_Click(System.Object,System.EventArgs)">
+Delete
+</member>
+</members>
+</doc>

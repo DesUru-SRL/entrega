@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "ingrese el nombre de usuario que desea quitarle el permiso de conexion " nom
+echo "revoke connect from "$nom"" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read

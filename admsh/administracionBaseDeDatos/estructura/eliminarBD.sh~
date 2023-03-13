@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Ingrese el nombre de la base de datos que desea eliminar " nombre
+echo "drop database demo@on$nombre" > administracionBaseDeDatos/comando.sql
+dbaccess desuru@demo_on administracionBaseDeDatos/comando.sql
+rm comando.sql
+read
